@@ -8,13 +8,13 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: 104.21.15.212
+  server: 104.27.82.154
   port: 8880
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
+  uuid: 94ed4a58-dcf4-43cb-afc1-f158e14ec42d
   udp: true
   tls: false
   network: ws
-  servername: 104.21.15.212
+  servername: 104.27.82.154
 tun:
   enable: true
   stack: system
