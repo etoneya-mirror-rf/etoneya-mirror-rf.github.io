@@ -8,13 +8,14 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: 104.27.82.154
-  port: 8880
-  uuid: 94ed4a58-dcf4-43cb-afc1-f158e14ec42d
+  server: 31.58.181.88
+  port: 8443
+  uuid: cab0b9e0-3df1-4624-8c42-a9f140d778f2
   udp: true
-  tls: false
-  network: ws
-  servername: 104.27.82.154
+  tls: true
+  client-fingerprint: firefox
+  servername: tradingview.com
+  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
