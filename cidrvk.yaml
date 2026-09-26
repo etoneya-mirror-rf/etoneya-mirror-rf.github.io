@@ -6,16 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '3094 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  tls: true
-  network: ws
-  servername: dostavitos.stroymatdv.cc
-- name: '3183 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '3741 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.235
   port: 443
@@ -24,6 +15,15 @@ proxies:
   tls: true
   network: ws
   servername: katering.coteite.pro
+- name: '4893 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: dostavitos.stroymatdv.cc
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  tls: true
+  network: ws
+  servername: dostavitos.stroymatdv.cc
 tun:
   enable: true
   stack: system
@@ -108,8 +108,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '3094 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3183 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '3741 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '4893 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
