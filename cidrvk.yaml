@@ -6,34 +6,11 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0450 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 217.16.18.121
-  port: 443
-  uuid: f80b4d32-81b4-42a7-9b89-bb219682375c
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: OKJ9724-_gjuXTPkyMo0pwm0TfBM0PN8tTh8HMnE1Wg
-    short-id: f73c22d382939b8f
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: eh.vk.com
-  flow: xtls-rprx-vision
-- name: '1581 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.225
-  port: 7448
-  uuid: 4643976f-85fa-40cf-9e58-ea28b50f253b
-  udp: true
-  tls: true
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: '2300 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0164 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.208
   port: 9444
-  uuid: e3462e2c-618e-41c2-aa69-7fc9bce1213c
+  uuid: 0f46d055-17ab-429b-8663-95634b61b50c
   udp: true
   tls: true
   network: raw
@@ -44,36 +21,7 @@ proxies:
   client-fingerprint: firefox
   servername: res.cdnguard.org
   flow: xtls-rprx-vision
-- name: '2495 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 217.16.18.121
-  port: 443
-  uuid: f80b4d32-81b4-42a7-9b89-bb219682375c
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: OKJ9724-_gjuXTPkyMo0pwm0TfBM0PN8tTh8HMnE1Wg
-    short-id: f73c22d382939b8f
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: eh.vk.com
-  flow: xtls-rprx-vision
-- name: '4090 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 217.16.18.121
-  port: 443
-  uuid: f80b4d32-81b4-42a7-9b89-bb219682375c
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: OKJ9724-_gjuXTPkyMo0pwm0TfBM0PN8tTh8HMnE1Wg
-    short-id: f73c22d382939b8f
-    support-x25519mlkem768: true
-  client-fingerprint: random
-  servername: eh.vk.com
-  flow: xtls-rprx-vision
-- name: '4889 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0465 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.208
   port: 9444
@@ -88,7 +36,7 @@ proxies:
   client-fingerprint: firefox
   servername: res.cdnguard.org
   flow: xtls-rprx-vision
-- name: '5131 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2040 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 217.16.18.121
   port: 443
@@ -103,11 +51,54 @@ proxies:
   client-fingerprint: random
   servername: eh.vk.com
   flow: xtls-rprx-vision
-- name: '5505 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2156 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 217.16.18.121
+  port: 443
+  uuid: f80b4d32-81b4-42a7-9b89-bb219682375c
+  udp: true
+  tls: true
+  network: raw
+  reality-opts:
+    public-key: OKJ9724-_gjuXTPkyMo0pwm0TfBM0PN8tTh8HMnE1Wg
+    short-id: f73c22d382939b8f
+    support-x25519mlkem768: true
+  client-fingerprint: random
+  servername: eh.vk.com
+  flow: xtls-rprx-vision
+- name: '3066 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 217.16.18.121
+  port: 443
+  uuid: f80b4d32-81b4-42a7-9b89-bb219682375c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: OKJ9724-_gjuXTPkyMo0pwm0TfBM0PN8tTh8HMnE1Wg
+    short-id: f73c22d382939b8f
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: eh.vk.com
+  flow: xtls-rprx-vision
+- name: '3093 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 217.16.18.121
+  port: 443
+  uuid: f80b4d32-81b4-42a7-9b89-bb219682375c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: OKJ9724-_gjuXTPkyMo0pwm0TfBM0PN8tTh8HMnE1Wg
+    short-id: f73c22d382939b8f
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: eh.vk.com
+  flow: xtls-rprx-vision
+- name: '3605 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.208
   port: 9444
-  uuid: 0f46d055-17ab-429b-8663-95634b61b50c
+  uuid: e3462e2c-618e-41c2-aa69-7fc9bce1213c
   udp: true
   tls: true
   network: raw
@@ -117,6 +108,15 @@ proxies:
     support-x25519mlkem768: true
   client-fingerprint: firefox
   servername: res.cdnguard.org
+  flow: xtls-rprx-vision
+- name: '5786 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 37.139.42.225
+  port: 7448
+  uuid: 4643976f-85fa-40cf-9e58-ea28b50f253b
+  udp: true
+  tls: true
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
 tun:
   enable: true
@@ -202,14 +202,14 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0450 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1581 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2300 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2495 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '4090 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '4889 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '5131 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '5505 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0164 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0465 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2040 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2156 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '3066 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '3093 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '3605 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '5786 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
